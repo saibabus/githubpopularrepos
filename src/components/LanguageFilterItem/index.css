@@ -1,0 +1,20 @@
+/* Write your CSS here */
+.eachlanguage {
+  margin: 5px;
+}
+.button {
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  outline: none;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: bold;
+  color: #0f172a;
+  background-color: transparent;
+}
+.isactive {
+  color: #0284c7;
+  border: 1px #0284c7 solid;
+}

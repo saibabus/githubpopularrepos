@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.app-contianer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  color: #0f172a;
+  font-family: 'lobster';
+  font-size: 25px;
+  font-weight: bold;
+}
+.differentlanguages {
+  display: flex;
+  padding: 0;
+  list-style-type: none;
+}
+.failurecontainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+.failureImg {
+  width: 200px;
+  height: 200px;
+}
+.fialureMsg {
+  color: #041b52;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+.repositoriesItems {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0px;
+  align-items: center;
+  width: 90%;
+}

@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.listItem {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: #f8f8ff;
+  border: none;
+  border-radius: 10px;
+  width: 200px;
+  align-items: center;
+  margin: 5px;
+}
+
+.imgofitem {
+  width: 80px;
+  height: 80px;
+}
+.name {
+  color: #e73959;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+}
+.statusCon {
+  display: flex;
+  align-items: center;
+}
+.statusImg {
+  width: 20px;
+  margin-right: 5px;
+}
+
+.statusPara {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: bold;
+}
