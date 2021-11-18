@@ -40,11 +40,7 @@ class GithubPopularReports extends Component {
     const {selectedId} = this.state
     this.setState({apiStatus: apiStatusConstans.process})
     const githubReposApiUrl = `https://apis.ccbp.in/popular-repos?language=${selectedId}`
-    const options = {
-      method: 'GET',
-    }
-
-    const response = await fetch(githubReposApiUrl, options)
+    const response = await fetch(githubReposApiUrl)
     console.log(response)
 
     if (response.ok) {
